@@ -6,7 +6,7 @@ import pprint as pp
 
 matplotlib.interactive("True")
 
-df = pd.read_csv(r'/Users/dhruvvaish/Documents/data_files/UCB_GPAs.csv')
+df = pd.read_csv(r'/UCB_GPAs.csv')
 data = pd.DataFrame(df)
 
 years = data['Academic Year'].unique().tolist()
