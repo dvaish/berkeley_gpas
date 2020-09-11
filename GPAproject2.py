@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-data = pd.read_csv(r'/Users/dhruvvaish/Documents/data_files/UCB_GPAs.csv')
+data = pd.read_csv(r'/UCB_GPAs.csv')
 
 class GPA_college:
 
